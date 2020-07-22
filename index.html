@@ -9,19 +9,21 @@
 		<nav>
 			<h1>Greg's List</h1>
 			<ul>
-				<li>Post</li>
-				<li>Account</li>
+				<li><a href="#">Post</a></li>
+				<li><a href="#">Account</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
 		<form>
-			<input type="text" name="search_box" value="Search for item:">
-			<button><img src="images/magnifying-glass.png"></button>
+			<input id="search_box" type="text" name="search_box" value="Search for item:">
+			<button><img class="magnifying-glass" src="images/magnifying-glass.png"></button>
 		</form>
-		<span>< prev</span>
-		<span>1 to 100 of 179</span>
-		<span>next ></span>
+		<div class="pageSelect">
+			<span class="pages">< prev</span>
+			<span class="pages">1 to 100 of 179</span>
+			<span class="pages">next ></span>
+		</div>	
 		<div class="result">June 22 <a href="#">Technical Project Manager</a> Midtown East</div>
 		<div class="result">June 21 <a href="#">Frontend Developer</a> SoHo</div>
 		<div class="result">June 20 <a href="#">Senior Python Developer / Cofounder</a> Flatiron</div>
